@@ -33,7 +33,8 @@ st.markdown("<p class='header-text'>📊 Smart Classroom Monitoring Dashboard</p
 st.markdown("<p class='sub-header-text'>Developed by Manikanta – CSE-IoT (GCET)</p>", unsafe_allow_html=True)
 st.markdown("---")
 
-API_URL = "http://10.28.113.30:5000/latest"
+API_URL = "http://10.229.221.30:5000/latest"
+
 refresh_interval = 10
 
 def fetch_data():
@@ -94,3 +95,4 @@ while True:
             st.warning("⚠️ No sensor data available. Please send data from NodeMCU.")
 
     time.sleep(refresh_interval)
+
