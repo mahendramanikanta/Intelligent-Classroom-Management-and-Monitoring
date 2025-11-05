@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Classroom Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>📊 Smart Classroom Monitoring</h1>
+
+    <div class="metrics">
+      <div class="card" id="temp">🌡️ Temp: --</div>
+      <div class="card" id="humid">💧 Humidity: --</div>
+      <div class="card" id="light">💡 Light Level: --</div>
+      <div class="card" id="sound">🔊 Sound: --</div>
+      <div class="card" id="air">🌫️ Air Quality: --</div>
+      <div class="card" id="motion">🏃‍♂️ Motion: --</div>
+    </div>
+
+    <div class="devices">
+      <h2>⚙️ Predicted Device Status</h2>
+      <p id="fanStatus">Fan: --</p>
+      <p id="lightStatus">Light: --</p>
+    </div>
+
+    <button onclick="fetchData()">🔁 Refresh</button>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
