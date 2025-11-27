@@ -35,7 +35,7 @@ st.markdown("<p class='sub-header-text'>Developed by Manikanta CSE (IoT) | Geeth
 st.markdown("---")
 
 # ================== API URL ==================
-API_URL = "http://10.104.127.30:5000/latest"
+API_URL = "https://intelligent-classroom-management-and.onrender.com/latest"
 
 REFRESH_INTERVAL = 10  # seconds
 
